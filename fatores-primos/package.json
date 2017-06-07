@@ -1,0 +1,7 @@
+{
+  "name": "fatores-primos",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
