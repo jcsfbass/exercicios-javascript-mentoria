@@ -1,4 +1,4 @@
-function fatoresPrimos(valor) {
+const fatoresPrimos = valor => {
   const resultado = [];
   let possivelFatorPrimo = 2;
 
@@ -11,3 +11,5 @@ function fatoresPrimos(valor) {
 
   return resultado;
 }
+
+module.exports = fatoresPrimos;
