@@ -3,7 +3,12 @@ const fatoresPrimos = require('../src/fatores_primos');
 describe('Fatores Primos', () => {
   describe('quando o valor passado for 2', () => {
     it('deve ter um array com o valor 2', () => {
-      expect(fatoresPrimos(2)).toEqual([2]);
+      const valor = 2;
+      const resultadoEsperado = [2];
+
+      const resultado = fatoresPrimos(2);
+
+      expect(resultado).toEqual(resultadoEsperado);
     });
   });
 

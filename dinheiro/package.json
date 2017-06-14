@@ -1,6 +1,7 @@
 {
-  "name": "fatores-primos",
+  "name": "dinheiro",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "test": "./node_modules/jasmine/bin/jasmine.js"
   },
