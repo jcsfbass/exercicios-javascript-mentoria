@@ -1,4 +1,4 @@
-class Dinheiro {
+ class Dinheiro {
   constructor(valor) {
     this.valor = valor;
   }
@@ -6,6 +6,9 @@ class Dinheiro {
   igualA(outroDinheiro) {
     return this.valor === outroDinheiro.valor;
   }
-}
 
+  mais(outroDinheiro) {
+    return new Dinheiro(this.valor + outroDinheiro.valor);
+  }
+}
 module.exports = Dinheiro;

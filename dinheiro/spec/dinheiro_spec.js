@@ -31,7 +31,7 @@ describe('Dinheiro', () => {
       const vinte = new Dinheiro(20);
       const trinta = new Dinheiro(30);
 
-      const resultado = dez.mais(20);
+      const resultado = vinte.mais(dez);
 
       expect(resultado).toEqual(trinta);
     });
