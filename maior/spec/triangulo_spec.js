@@ -4,7 +4,7 @@ describe('Triangulo', () => {
   describe('.maiorQue', () => {
     let triangulo1, triangulo2;
 
-    beforeEach(() => {
+    beforeAll(() => {
       triangulo1 = new Triangulo(3, 3, 3);
       triangulo2 = new Triangulo(3, 3, 4);
     });

@@ -1,10 +1,8 @@
-class Triangulo {
-  constructor(lado1, lado2, lado3) {
-    this.perimetro = lado1 + lado2 + lado3;
-  }
+const Poligono = require('./poligono');
 
-  maiorQue(outroTriangulo) {
-    return this.perimetro > outroTriangulo.perimetro;
+class Triangulo extends Poligono {
+  constructor(lado1, lado2, lado3) {
+    super(lado1, lado2, lado3);
   }
 }
 
